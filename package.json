@@ -1,0 +1,19 @@
+{
+  "name": "typescripthomework",
+  "version": "1.0.0",
+  "description": "Typescript Homework for purpleschool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EsilSemitone/TypeScriptHomework.git"
+  },
+  "author": "Esil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EsilSemitone/TypeScriptHomework/issues"
+  },
+  "homepage": "https://github.com/EsilSemitone/TypeScriptHomework#readme"
+}
