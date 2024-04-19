@@ -7,7 +7,7 @@ const user = {
 }
 
 type SomeObjCover<T> = {
-    [KEY in keyof T] +?: any
+    [KEY in keyof T] +?: T[KEY]
 }
 
 function pickObjectKeys<T extends object>(obj: T, arrKeys: [keyof T]): SomeObjCover<T> {
@@ -18,6 +18,6 @@ function pickObjectKeys<T extends object>(obj: T, arrKeys: [keyof T]): SomeObjCo
     }
     return result
 }
-
+const skillsObj = pickObjectKeys(user, ["skills"])
 console.log(pickObjectKeys(user, ["skills"]));
 //{ skills: [ 'typescript', 'javascript' ] }
